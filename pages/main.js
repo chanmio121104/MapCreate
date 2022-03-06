@@ -5,7 +5,6 @@ import Head from 'next/head'
 import Image from 'next/image';
 
 
-
 export default function Name() {
   // const query = useState();
   const router = useRouter();
@@ -57,7 +56,7 @@ export default function Name() {
           {/* <a className={styles.city}>{SScity}</a> */}
           <a className={styles.place}>{place}</a>
         <span className={styles.ticket}>
-            <Image src="/S__4513796.jpg"  width={600} height={200} />
+            <Image src="/S__4538374.jpg"  width={600} height={200} />
         </span>
       </main>
     </div>
