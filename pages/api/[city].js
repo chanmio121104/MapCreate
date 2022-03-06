@@ -1,5 +1,4 @@
 import { PrismaClient } from '@prisma/client';
-import { Router } from 'next/router';
 
 function getRandomInt(min, max) {
   min = Math.ceil(min);
@@ -20,6 +19,6 @@ export default async function handler(req, res) {
 
   res.status(200).json({
     'result': 'OK',
-    place: result[getRandomInt(0,result.length)].place
+    'place': result[getRandomInt(0,result.length)].place
   });
 }

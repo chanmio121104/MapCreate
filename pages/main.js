@@ -25,7 +25,10 @@ export default function Name() {
       }
     )
       .then((res) => {
-        return res.json();
+        if (res.status == 200) {
+          return res.json();
+        }
+        throw new Error('server error')
       })
       .then((json) => {
         setplace(json.place);
