@@ -8,6 +8,7 @@
     border:solid #277dff 0.5vw ;
 }
 .main{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     text-align: center;
     height: auto;
     width: auto;
