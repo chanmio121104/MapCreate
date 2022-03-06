@@ -103,7 +103,7 @@ export default function AddUser() {
         return res.json();
       })
       .then((json) => {
-        setResult('追加しました。');
+        setResult('●');
       });
   };
 
