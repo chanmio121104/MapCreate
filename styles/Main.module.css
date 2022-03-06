@@ -1,0 +1,44 @@
+
+.container{
+    position:fixed;
+    top: 1%;
+    left: 1%;
+    right: 1%;
+    bottom: 1%;
+    border:solid #277dff 0.5vw ;
+}
+.main{
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+.text{
+    /* color: #277dff; */
+    position: absolute;
+    top: 10vw;
+    left: 30vw;
+    font-size: 5vw;
+    height: auto;
+    width: auto;
+}
+.city{
+    position: absolute;
+    top: 20vw;
+    left: 20vw;
+}
+.place{
+    position: absolute;
+    font-size: 210%;
+    top: 40vh;
+    left: 13vw;
+    height: auto;
+    width: auto;
+    /* margin: 20%;
+    border:solid #277dff 0.1vw ;
+    text-align: center; */
+}
+.ticket{
+    position: relative;
+    top: 15vw;
+    z-index: -5;
+}
